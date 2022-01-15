@@ -23,3 +23,21 @@ body {
     height: 314px;
     margin-left: 30px;
 }
+
+/* Popular-Collection parts */
+.popular-heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.popular-collection {
+    width: 330px;
+    height: 476px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-shadow: 4px 4px 4px 4px #5E6366;
+    border-radius: 10px;
+
+}
