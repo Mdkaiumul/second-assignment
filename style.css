@@ -3,10 +3,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
 }
 
 /* Influencer-parts */
 .Influencer {
+
     display: flex;
 }
 
@@ -19,25 +22,54 @@ body {
 }
 
 .Influencer-img img {
-
-    height: 314px;
+    width: 440;
+    height: 414px;
     margin-left: 30px;
 }
 
 /* Popular-Collection parts */
+.popular-collection {
+    width: 230px;
+    height: 386px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    box-shadow: 3px 4px 4px 4px #5E6366;
+    border-radius: 10px;
+    padding-left: 25px;
+
+
+}
+
+.container {
+    width: 347px;
+    height: 442px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    scroll-margin-right: 50px;
+
+
+}
+
+.Popular-parts img {
+    width: 200px;
+    height: 156px;
+}
+
 .popular-heading {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
 
-.popular-collection {
-    width: 330px;
-    height: 476px;
-    background-color: #FFFFFF;
-    padding-top: 20px;
-    padding-left: 30px;
-    box-shadow: 4px 4px 4px 4px #5E6366;
-    border-radius: 10px;
 
+
+.icon i {
+    color: orange;
+
+}
+
+.icon span {
+    padding-left: 20px;
 }
