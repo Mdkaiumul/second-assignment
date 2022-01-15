@@ -103,6 +103,23 @@ body {
     padding-right: 40px;
 }
 
+/* bunos parts */
+.bonus-parts-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.my-mission img {
+    width: 350px;
+    height: 300px;
+}
+
+.my-mission-details {
+    margin-left: 100px;
+
+}
+
 /* footer parts */
 
 .footer {
