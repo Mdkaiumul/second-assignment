@@ -27,6 +27,22 @@ body {
     margin-left: 30px;
 }
 
+.button a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+
+
+}
+
+.button {
+    background-color: #E02C6D;
+    width: 200px;
+    border-radius: 5px;
+
+
+}
+
 /* Popular-Collection parts */
 .popular-collection {
     width: 230px;
@@ -41,8 +57,6 @@ body {
 }
 
 .container {
-    width: 347px;
-    height: 442px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -72,4 +86,33 @@ body {
 
 .icon span {
     padding-left: 20px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: #E02C6D;
+    width: 75px;
+    height: 24px;
+
+}
+
+.anchor {
+    text-align: right;
+
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+/* footer parts */
+
+.footer {
+
+    color: white;
+    text-align: center;
+    background-color: #0A0826;
+
+}
+
+.footer-icon {
+    padding-right: 5px;
 }
