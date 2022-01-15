@@ -4,3 +4,22 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Influencer-parts */
+.Influencer {
+    display: flex;
+}
+
+.Influencer-heading {
+    font-size: 30px;
+}
+
+.Influencer-deitals {
+    margin-top: 35px;
+}
+
+.Influencer-img img {
+
+    height: 314px;
+    margin-left: 30px;
+}
