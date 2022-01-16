@@ -120,13 +120,28 @@ body {
 
 }
 
+.my-details-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-details-button {
+    width: 90px;
+    background-color: #E02C6D;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
 /* footer parts */
+.footer-parts {}
 
 .footer {
 
     color: white;
     text-align: center;
     background-color: #0A0826;
+    padding-top: 30px;
+
 
 }
 
